@@ -44,20 +44,20 @@ params:
   tocopen: false
 
   assets:
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
 
   label:
     text: "Home"
-    icon: /favicon.ico
+    icon: favicon.ico
     iconHeight: 35
 
   profileMode:
     enabled: true
     title: "Patrick Whalen, PhD"
     subtitle: "Welcome to my personal blog"
-    imageUrl: "/cactus.jpg"
+    imageUrl: "cactus.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: The cactus
