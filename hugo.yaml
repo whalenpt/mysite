@@ -1,3 +1,106 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+#baseURL: "https://whalenpt.github.io/mysite/"
+baseURL: "https://example.com"
+title: "Patrick Whalen, PhD"
+theme: "PaperMod"
+languageCode: "en-us"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pagination:
+  pagerSize: 5
+
+params:
+  env: production
+  title: "Patrick Whalen, PhD"
+  description: "Welcome to my personal blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Patrick Whalen
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShareButtons: ["linkedin"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+
+  label:
+    text: "Home"
+    icon: /favicon.ico
+    iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: "Patrick Whalen, PhD"
+    subtitle: "Welcome to my personal blog"
+    imageUrl: "/cactus.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: The cactus
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Publications
+        url: publications
+      - name: Projects
+        url: projects
+
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/whalenpt/"
+    - name: github
+      url: "https://github.com/whalenpt"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=UeP93pEAAAAJ&hl=en&oi=sra"
+    - name: email
+      url: "mailto:whalenpt@gmail.com"
+
+  cover:
+    linkFullImages: true
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: true
+
+menu:
+  main:
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 3
+    - identifier: resume
+      name: Resume
+      url: /about
+      weight: 4
