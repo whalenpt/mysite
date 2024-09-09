@@ -1,7 +1,7 @@
 ---
 title: "Super high power mid-infrared femtosecond light bullet"
 date: 2015-07-20
-draft: true
+draft: false
 authors: ["Paris Panagiotopoulos", "Patrick Whalen", "Miroslav Kolesik", "Jerome V Moloney"]
 publication: "Nature Photonics volume 9, pages543–548 (2015)"
 publication_short: ""
