@@ -1,5 +1,5 @@
 +++
-title = 'Resume'
+title = 'Curriculum Vitae'
 date = 2024-09-09T02:31:29Z
 draft = false
 +++

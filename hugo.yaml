@@ -100,7 +100,7 @@ menu:
       name: Posts
       url: /posts/
       weight: 3
-    - identifier: resume
-      name: Resume
-      url: /about
+    - identifier: cv
+      name: CV
+      url: /cv
       weight: 4
